@@ -1,23 +1,134 @@
-header{
-  height:25px;
-  color:#91c788; 
+body {
+  margin: 0%;
 }
 
-header h1 { 
-font-size:150%;
-float: left;
-margin:0%; 
+header{
+ color: #91c788;
+ height: 100px;
 }
 
 header nav{
-float:right;
+  float: right;
+  width: 20%;
+  margin-top: 10px;
+}
+
+header h1{
+ float: left;
+ width: 25%;
+ margin-left: 10px;
+}
+
+header nav ul li{
+  display: inline-block;
+  width: 25%
+}
+
+header nav ul li a{
+  text-decoration: none;
+  color:#91c788; 
+}
+
+ main image{
+  background: url(travel1.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  
+}
+
+#intro {
+ 
+  text-align: center;
+  color:black;
+  height: 100px
+}
+
+#intro h2{
+  color:black;
+}
+ #intro p{
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  margin: 20px;
  }
 
-header nav ul li {
-display: inline; 
-} 
+#europe {
+  text-align: center;
+  background-image: url(euro.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover contain;
+  height: 100px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
+}
 
-ul li a{
-  text-decoration: none;
-  color:black;
+#europe h3{
+ position: relative;
+ text-align: center;
+ color: white;
+}
+
+#europe h3 a{
+color: azure;
+text-decoration: none
+
+
+}
+
+#asia {
+  text-align: center;
+  background-image: url(asia.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover contain;
+  height: 100px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
+}
+
+#asia h3 a{
+color: azure;
+text-decoration: none}
+
+#america {
+  text-align: center;
+  background-image: url(america.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover contain;
+  height: 100px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
+}
+
+#america h3 a{
+color: azure;
+text-decoration: none}
+
+#africa {
+  text-align: center;
+  background-image: url(africa.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover contain;
+  height: 100px;
+  border: 15px;
+  padding: 50px;
+  margin: 20px;
+}
+
+#africa h3 a{
+color: azure;
+text-decoration: none;
+}
+
+footer{
+  color: #91c788;
+  margin-top: 20px;
+  padding: 15px
 }
