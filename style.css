@@ -1,134 +1,105 @@
-body {
-  margin: 0%;
+body{
+  
+  color: #e84545;
 }
 
 header{
- color: #91c788;
- height: 100px;
-}
-
-header nav{
-  float: right;
-  width: 20%;
-  margin-top: 10px;
-}
-
-header h1{
- float: left;
- width: 25%;
- margin-left: 10px;
-}
-
-header nav ul li{
-  display: inline-block;
-  width: 25%
-}
-
-header nav ul li a{
-  text-decoration: none;
-  color:#91c788; 
-}
-
- main image{
-  background: url(travel1.jpg);
+  height: 100px;
+  color: white;
+  background: url(travelg1.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
-  
+  background-size: fill;
 }
 
-#intro {
- 
-  text-align: center;
-  color:black;
-  height: 100px
+
+header section nav ul{
+float: right;
+margin-top: 50px;
+margin-right: 20px;
+}
+
+header section nav ul li{
+list-style-type: none;
+display: inline;
+word-spacing: 15px;
+font-weight: bold;
+font-size: 20px;
+}
+
+
+header section nav ul li a{
+  text-decoration: none;
+  color:#2b2e4a;
+}
+
+header section h1{
+  
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 25%;
+  height: 10px;
+  font-size: 40px;
+}
+
+header img{
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  width: 50%;
+}
+
+main img{
+  width: 500px;
+  height: 250px;
+  object-fit: contain;
+}
+
+#intro{
+  height: 120px;
 }
 
 #intro h2{
-  color:black;
-}
- #intro p{
-   color: black;
-   font-family: Arial, Helvetica, sans-serif;
-  padding: 20px;
-  margin: 20px;
- }
-
-#europe {
-  text-align: center;
-  background-image: url(euro.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover contain;
-  height: 100px;
-  border: 15px;
-  padding: 50px;
-  margin: 20px;
+text-align: center;
+height: 25px;
+font-size: 30px;
+margin-bottom: 50px;
 }
 
-#europe h3{
- position: relative;
- text-align: center;
- color: white;
+#intro p{
+  color: #2b2e4a;
+text-align: center;
+height: 100px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 15px;
 }
 
-#europe h3 a{
-color: azure;
-text-decoration: none
-
-
+.destinations img{
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
 }
 
-#asia {
-  text-align: center;
-  background-image: url(asia.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover contain;
-  height: 100px;
-  border: 15px;
-  padding: 50px;
-  margin: 20px;
-}
-
-#asia h3 a{
-color: azure;
-text-decoration: none}
-
-#america {
-  text-align: center;
-  background-image: url(america.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover contain;
-  height: 100px;
-  border: 15px;
-  padding: 50px;
-  margin: 20px;
-}
-
-#america h3 a{
-color: azure;
-text-decoration: none}
-
-#africa {
-  text-align: center;
-  background-image: url(africa.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover contain;
-  height: 100px;
-  border: 15px;
-  padding: 50px;
-  margin: 20px;
-}
-
-#africa h3 a{
-color: azure;
-text-decoration: none;
+.destinations {
+text-align: center;
+height: 350px;
+font-size: 22px;
+margin-top: 50px;
 }
 
 footer{
-  color: #91c788;
-  margin-top: 20px;
-  padding: 15px
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  background: url(travelg1.jpg);
+  background-repeat: no-repeat;
+  background-size: fill;
 }
