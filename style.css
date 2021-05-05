@@ -76,10 +76,10 @@ margin-bottom: 50px;
 
 #intro p{
   color: #2b2e4a;
-text-align: center;
-height: 100px;
- font-family: Arial, Helvetica, sans-serif;
- font-size: 15px;
+  text-align: center;
+  height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
 }
 
 #intro{
@@ -87,8 +87,8 @@ height: 100px;
 }
 
 #intro h2{
-text-align: center;
-height: 25px;
+ text-align: center;
+ height: 25px;
 }
 
 #intro p{
@@ -111,15 +111,6 @@ text-align: center;
 height: 350px;
 font-size: 22px;
 margin-top: 50px;
-}
-
-footer{
-  color: white;
-  padding: 15px;
-  font-weight: bold;
-  background: url(travelg1.jpg);
-  background-repeat: no-repeat;
-  background-size: fill;
 }
 
 footer{
