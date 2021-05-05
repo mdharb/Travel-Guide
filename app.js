@@ -1,24 +1,19 @@
-alert("*Our website is welcoming backpackers around the world*");
+confirm('Travel+ will access your location for better targeting!');
 
-alert("- Please let us know you better in order to get a better experience!");
+var welcoming=alert('What about knowing each other more?');
 
-confirm("Do you mind if we access you location?");
+var firstName=prompt('What is your first name?');
 
-var destination = prompt("Where is your travel destination,(europe, asia, or africa)");
+var sureName=prompt('Your surename?');
 
+alert('Welcome'+" "+firstName+" "+sureName)
 
-if (destination == 'europe') {
-  document.write('<a href="https://travel.usnews.com/rankings/best-europe-vacations/">europe</a>');
+var emailAddress=prompt('Could you please provide us with your email, so we can keep in touch about what is new in our website!');
+
+var destination=prompt('Your travel destination?');
+
+var age=prompt('How old are you?');
+
+if (age<18) {alert('Ops!!..you are less than 18 and you will not be able to continue browsing!');  
 }
-
-else if (destination == 'asia') {
-  document.write('<a href="https://travel.usnews.com/rankings/best-asian-vacations/">asia</a>');
-}
-
-else if (destination == 'africa') {
-  document.write('<a href="https://travel.usnews.com/rankings/best-african-vacations/">asia</a>');
-}
-
-else{document.write('<p><h1>SORRY!!</h1></p>')}
-
-
+else { alert('Welcome to Travel+, we wish you a useful tour!'); }
