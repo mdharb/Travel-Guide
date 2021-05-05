@@ -123,8 +123,10 @@ footer{
 }
 
 footer{
-  color: #2b2e4a;
+  color: white;
   padding: 15px;
-  margin-left: 10px;
   font-weight: bold;
+  background: url(travelg1.jpg);
+  background-repeat: no-repeat;
+  background-size: fill;
 }
