@@ -13,7 +13,11 @@ var destination=prompt('Your travel destination?(europe, asia, africa)');
 
 while (destination !== 'europe' && destination !== 'asia' && destination !== 'africa') {destination= prompt('Please choose one of them: (europe, asia, africa)');}
 
+var destination=prompt('Your travel destination?');
+
+
 if(destination=="europe"){alert('Congratulations!!.. You got a flight ticket voucher_code: Euro2021');}
+
 
 else if (destination=="asia"){alert('Congratulations!!.. You got a flight ticket voucher_code: Asia2021');}
 
@@ -30,6 +34,9 @@ for (var i = 0; i < rate; i++) {
 
   document.write('<img src="1star.jpg" width="100px">');
 }
+if (age>=18) {alert('Welcome to Travel+, we wish you a useful tour!');  
+}
+else {alert('Ops!!..you are less than 18 and you will not be able to continue browsing!');}
 
 
 // var age=prompt('How old are you?')
