@@ -76,7 +76,7 @@ if (rate > 5) {
   rate = 5;
 }
 else if (rate < 1){
-  rate=1;
+  rate=1
 }
 
 
