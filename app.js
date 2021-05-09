@@ -37,11 +37,19 @@
 confirm('Travel+ will access your location.');
 
 
+// var age=prompt('How old are you?')
+
+// if (age>=18) {alert('Welcome to Travel+, we wish you a useful tour!');  
+// }
+// else {alert('Ops!!..you are less than 18 and you will not be able to continue browsing!');}
+
+
 var favDestination= function(){
 
 var destination = prompt('Your travel destination? (europe, asia, africa)');
 
-while (destination !== 'europe' && destination !== 'asia' && destination !== 'africa') { destination = prompt('Please choose one of these destinations: (europe, asia, africa)'); }
+while (destination !== 'europe' && destination !== 'asia' && destination !== 'africa')
+{ destination = prompt('Please choose one of these destinations: (europe, asia, africa)'); }
 
 var result='';
 
@@ -52,7 +60,6 @@ else if (destination == 'asia') { result= ('Congratulations!!.. You got a flight
 
 else if (destination == 'africa') { result=('Congratulations!!.. You got a flight ticket voucher code: Africa2021'); }
 
-
 return result;
 }
 
@@ -61,17 +68,22 @@ alert (favDestination());
 
 
 var ourRating=function(){
+
 var rate = prompt('Rate our service!..(1-5)');
 
 
 if (rate > 5) {
   rate = 5;
-
 }
+else if (rate < 1){
+  rate=1;
+}
+
 
 var starResults='';
 
 for (var i = 1; i <= rate; i++) {
+
  starResults += '<img src="1star.jpg" width="35px">';
 }
 return starResults;
